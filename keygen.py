@@ -7,6 +7,7 @@ def asciicheck(key):
 		asciisum += ord(i)
 	return asciisum
 
+
 key = ""
 while True:
 	key += random.choice("abcdefghijklmnopqrstuvABCDEFGHIJKLMNOPQRSTUVWXYZ123456789")
